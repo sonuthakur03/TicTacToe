@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="css/index.css">
+  <title>TicTacToe</title>
+</head>
+<body>
+  <h1>TicTacToe</h1>
+  <div id="count">
+    <div id="Xcount">
+      <p class="xo">X</p>
+      <p class="xo" id="scoreX">0</p>
+    </div>
+    <div id="Ocount">
+      <p class="xo">O</p>
+      <p class="xo" id="scoreO">0</p>
+    </div>
+  </div>
+  <div class="hide" id="nw-contain">
+	    <p id="msg">Winner</p>
+	    <button  id="nw">Next Game</button>
+	    <div id="scroll" class="hide">
+	    Scroll down to see last game!!
+	    </div>
+	    <button class="btn"><a href="#container"><span
+	    class="material-symbols-outlined span">
+arrow_downward_alt
+</span></a></button>
+	  </div>
+	  
+	  <h2 id="turn">O's Turn</h2>
+	<div id="container">
+	  
+	  <div class="game">
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	    <button class="box"></button>
+	  </div>
+	  <button id="reset">Reset Game</button>
+	</div>
+  <script src="js/index.js"></script>
+</body>
+</html>
