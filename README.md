@@ -10,7 +10,7 @@ Welcome to the Tic Tac Toe game! This is a simple, two-player game implemented u
 
 ## Demo
 
-You can view the live demo of the game [here](https://github.com/sonuthakur03/TicTacToe.git).
+You can view the live demo of the game [here](https://sonuthakur03.github.io/TicTacToe/).
 
 ## Installation
 
